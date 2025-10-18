@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <style></style>
+    <link rel="index" href="index.html" />
+  </head>
+  <body>
+    <div id="welcomePage" class="isNotVisible">
+      <h1 id="welcomeMsg">Welcome!</h1>
+    </div>
+
+    <div class="main-container">
+      <div class="title"><h2>Sign in</h2></div>
+      <div class="sign-in-box">
+        <h3 class="email">Email</h3>
+        <input
+          id="email"
+          class="email-input box"
+          type="text"
+          placeholder="sample@email.com"
+        />
+        <h3 class="password">Password</h3>
+        <input id="password" class="password-input box" type="password" />
+
+        <button id="signin" class="sign-in-bttn">Sign in</button>
+
+        <footer class="sign-up-footer">
+          Don't have an account?
+          <br />
+          <a href="index.html">Sign up</a>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

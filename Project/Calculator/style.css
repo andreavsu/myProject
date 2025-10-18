@@ -1,0 +1,43 @@
+.btn{
+    background-color: blue;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    box-shadow: 0px 6px 2px gray;
+}
+
+#onOffBtn{
+    width: 100px;
+}
+
+.pressed{
+    background-color: red;
+}
+
+.btn:hover{
+    background-color: aqua;
+    color: black;
+    cursor: crosshair;
+}
+
+.btn:active{
+    /* box-shadow: 2px 2px 1px gray; */
+    transform: translatey(5px);
+}
+
+.hideText{
+    visibility: hidden;
+}
+
+.hidingText{
+    background-color: aqua;
+}
+
+.showingText{
+    background-color: pink;
+}
+
+.up{
+    box-shadow: 0px -4px 1px gray;
+}

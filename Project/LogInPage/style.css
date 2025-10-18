@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#mainContainer{
+    height:100vh;
+    background-color: #F5F1DC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("tile.jpg");
+    background-size: 200px;
+   
+
+    
+    
+}
+
+#box{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    background-color: #FF9013;
+    padding: 15px;
+    gap: 10px;
+    border-radius: 20px;
+
+}
+
+#signIn{
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: #0046FF;
+  margin-bottom: 20px;
+}
+
+#emailTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#signInBtn{
+    font-size: 15px;
+    padding: 5px;
+    width: 50%;
+    
+}
+
+#emailInput{
+    padding: 3px;
+}
+
+#passwordInput{
+    padding: 3px;
+}
+
+#signInBtn{
+    border-radius: 25px;
+    width: 100px;
+    background-color: #73C8D2;
+    font-weight: bold;
+    border: none;
+    box-shadow: 3px 3px 5px black;
+    
+    
+}
+
+#signInBtn:active{
+    transform: translatey(3px);
+    box-shadow: 1px 1px 5px black;
+}
+
+#dntHave{
+    margin-top: 5px;
+}
+
+#signUp{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+

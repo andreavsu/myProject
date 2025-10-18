@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <style>
+        *{
+            box-sizing: 0;
+            margin: 0;
+            padding: 0;
+        }
+
+      .main-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        background-color: royalblue;
+      }
+
+      .title{
+        color: white;
+        margin-bottom: 20px;
+        text-shadow: 3px 3px black;
+      }
+
+      .info {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 5px;
+        height: 400px;
+        width: 300px;
+        padding: 15px;
+        /*box-shadow: inset 5px 5px 5px red, inset 7px 7px 7px black, inset -5px -5px 5px red, inset -7px -7px 7px black ;*/
+      }
+
+      .inputbox {
+        background-color: #f2f2f2;
+        height: 25px;
+        color: rgb(173, 16, 115);
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 15px;
+      }
+
+      .inputbox:focus{
+        background-color: lightcoral;
+        color: white;
+      
+      }
+
+      .header {
+        margin-bottom: 2px;
+      }
+
+      .name {
+        margin-top: 5px;
+      }
+
+      .sign-up-bttn {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        background-color: green;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 8px;
+        margin: 10px;
+        width: 100%;
+      }
+
+      .sign-up-bttn:hover {
+        background-color: white;
+        color: green;
+        border-radius: 30px;
+        border-color: green;
+      }
+
+      .sign-in-footer {
+        margin-top: 5px;
+        text-align: center;
+      }
+
+      a.sign-in-link:hover{
+        font-size: 25px;
+        color: blue;
+      }
+
+    </style>
+    <link rel="sign-in" href="sign-in.html">
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="title"><h2>Register your account</h2></div>
+
+      <div class="info">
+        <h3 class="name header">Name</h3>
+        <input
+          type="text"
+          class="inputbox"
+          placeholder="Enter your full name..."
+        />
+
+        <h3 class="username header">Username</h3>
+        <input type="text" class="inputbox" placeholder="Enter a username..." />
+
+        <h3 class="email header">Email address</h3>
+        <input
+          type="text"
+          class="inputbox"
+          placeholder="Enter your email address..."
+        />
+
+        <h3 class="password header">Password</h3>
+        <input
+          type="password"
+          class="inputbox"
+          placeholder="Enter your password..."
+        />
+
+        <h3 class="con-pass header">Confrim Password</h3>
+        <input
+          type="password"
+          class="inputbox"
+          placeholder="Enter your password again..."
+        />
+
+        <button class="sign-up-bttn">Sign up</button>
+
+        <footer class="sign-in-footer">
+          Already have an account?
+        <a class="sign-in-link" href="sign-in.html">Sign in</a>
+        </footer>
+        
+      </div>
+    </div>
+  </body>
+</html>
